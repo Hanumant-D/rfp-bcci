@@ -1482,7 +1482,7 @@ body.dark-mode .navbar__logo span {
 .ipl-app-promo {
 	background: var(--color-bg-light);
 	/* box-shadow: 0 2px 12px var(--color-shadow-secondary); */
-	padding: 20.5rem 0 3rem;
+	padding-inline: 16px;
 	margin-inline: auto;
 	/* max-width: 100%;
 	margin-top: -200px;
@@ -1494,16 +1494,9 @@ body.dark-mode .navbar__logo span {
 	position: relative;
 }
 
-/* .ipl-app-promo__img-wrap {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	margin-bottom: 2rem;
-	position: relative;
-	min-height: 280px;
-	max-height: 320px;
-} */
+.ipl-app-promo__img-wrap {
+	padding-block: 2rem;
+} 
 
 .ipl-app-promo__card {
 	position: absolute;
@@ -1655,6 +1648,8 @@ body.dark-mode .navbar__logo span {
 	display: block;
 	transition: transform 0.2s ease;
 	height: 40px;
+	width: 120px;
+	margin-bottom: 32px;
 }
 
 .ipl-app-promo__store-btn:hover {
@@ -2840,6 +2835,9 @@ login-preferences-form {
 .dark-mode .navbar__menu .navbar__search{
 	background: hsla(224, 46%, 12%, 1);
 }
+.dark-mode .navbar__menu .navbar__search input{
+	color: #fff;
+}
 .dark-mode .navbar__menu .navbar__links li a{
 	color: #fff;
 }
@@ -3134,7 +3132,7 @@ login-preferences-form {
 	position: absolute;
 	width: 124px;
 	height: 101px;
-	right: 27px;
+	right: 37px;
 	top: 17%;
 	z-index: 1;
 }
@@ -3155,8 +3153,9 @@ login-preferences-form {
 	animation: middleElementSequence 18s ease-in-out infinite;
 	animation-delay: 6s;
 	height: 240px;
-    position: absolute;
-	top: 27%;
+    position: relative;
+	top: 150px;
+	left: 50%;
     width: 200px;
 
 }
