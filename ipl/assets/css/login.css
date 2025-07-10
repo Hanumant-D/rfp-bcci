@@ -600,6 +600,9 @@ body {
 .dark-mode .navbar__menu .navbar__search{
 	background: hsla(224, 46%, 12%, 1);
 }
+.dark-mode .navbar__menu .navbar__search input{
+  color: #fff;
+}
 .dark-mode .navbar__menu .navbar__links li a{
 	color: #fff;
 }

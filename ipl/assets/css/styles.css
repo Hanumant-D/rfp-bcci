@@ -1496,6 +1496,8 @@ body.dark-mode .navbar__logo span {
 
 .ipl-app-promo__img-wrap {
 	padding-block: 2rem;
+	position: relative;
+	width: 100%;
 } 
 
 .ipl-app-promo__card {
@@ -3133,7 +3135,7 @@ login-preferences-form {
 	width: 124px;
 	height: 101px;
 	right: 37px;
-	top: 17%;
+	top: 30%;
 	z-index: 1;
 }
 
@@ -3144,7 +3146,7 @@ login-preferences-form {
 	position: absolute;
 	z-index: 1;
     left: 14px;
-    top: 23%;
+    top: 56%;
 	width: 124px;
 	height: 101px;
 }
@@ -3155,9 +3157,9 @@ login-preferences-form {
 	height: 240px;
     position: relative;
 	top: 150px;
-	left: 50%;
+	left: 30%;
     width: 200px;
-
+	transform: translate(-50%, -50%);
 }
 
 @keyframes sideElementSequence {
